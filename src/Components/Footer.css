@@ -1,0 +1,14 @@
+.footer-section {
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.footer-copyright, .footer-txt {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-txt:hover {
+    color: white;
+}
+

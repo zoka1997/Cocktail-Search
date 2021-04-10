@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.cocktails-center {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+.cocktails-center > .flex-cocktail-container {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.cocktails-card {
+border-radius: 10px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cocktails-card:hover {
+    box-shadow: 5px 5px 15px 1px #001EFF;
+}
+
+.card-title-cocktail {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.card-title-cocktail-text {
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-title-cockt {
+    font-weight: 900;
+}
+
+.card-tit {
+    font-weight: 500;
+}
+
+@media (max-width: 600px) {
+    .cocktails-center  {
+        overflow-y: hidden;
+    }
+}

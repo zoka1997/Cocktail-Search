@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.about-section {
+    padding: 140px 100px;
+}
+
+.title-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-shadow: 3px 2px 1px gray;
+    padding-bottom: 20px;
+}
+
+.first-paragraph, .second-paragraph {
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width: 600px) {
+    .about-section {
+        padding: 125px 15px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+    .about-section {
+        padding: 130px 20px 482px 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1365px) {
+    .about-section {
+        padding: 130px 20px 875px 20px;
+    }
+}
